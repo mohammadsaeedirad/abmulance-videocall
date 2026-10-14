@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PageClientImpl } from './PageClientImpl';
-import { isVideoCodec } from '@/lib/types';
-import { getLiveKitURL } from '@/lib/getLiveKitURL';
+import { isVideoCodec } from '../../../lib/types';
+import { getLiveKitURL } from '../../../lib/getLiveKitURL';
 
 export default async function Page({
   params,
