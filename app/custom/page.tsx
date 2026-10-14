@@ -6,7 +6,7 @@ export default async function CustomRoomConnection(props: {
   searchParams: Promise<{
     liveKitUrl?: string;
     token?: string;
-    codec?: string;
+    codec?: any;
     singlePC?: string;
   }>;
 }) {

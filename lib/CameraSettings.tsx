@@ -8,13 +8,13 @@ import {
 } from '@livekit/components-react';
 import { BackgroundBlur, VirtualBackground } from '@livekit/track-processors';
 import { isLocalTrack, LocalTrackPublication, Track } from 'livekit-client';
-// import Desk from '../public/background-images/background-images/samantha-gades-BlIhVfXbi9s-unsplash.jpg';
-// import Nature from '../public/background-images/background-images/ali-kazal-tbw_KQE3Cbg-unsplash.jpg';
+import Desk from '../public/background-images/images/livekit-apple-touch.png';
+import Nature from '../public/background-images/images/livekit-apple-touch.png';
 
 // Background image paths
 const BACKGROUND_IMAGES = [
-  { name: 'Desk', path: "/" },
-  { name: 'Nature', path: "/" },
+  { name: 'Desk', path: Desk },
+  { name: 'Nature', path: Nature },
 ];
 
 // Background options
